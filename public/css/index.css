@@ -1,0 +1,145 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./components/index.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+    /* Variables */
+    font-size: 8px;
+    /*Colors*/
+    --color-primary: #ed1c24;
+    --color-black: #191919;
+    --color-white: #ffffff;
+    --color-darker-gray: #cccccccc;
+    --color-ligher-gray: #fafafa;
+}
+
+span {
+    font-family: "Poppins";
+}
+
+p,
+a,
+span {
+    font-size: 2rem;
+}
+
+p,
+a {
+    font-family: "Poppins";
+}
+
+.img-logo {
+    display: block;
+}
+
+.icon {
+    stroke: currentColor;
+}
+
+/* Banner section */
+.main-content {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6ded7;
+    padding: 20px 50px;
+}
+
+.banner-text {
+    text-align: left;
+}
+
+.banner-text p {
+    font-size: 16px;
+}
+
+.banner-text h2 {
+    font-size: 36px;
+    color: #8b4513;
+    margin: 10px 0;
+}
+
+.banner-text .btn {
+    background-color: transparent;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.banner-text .btn:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.banner-image img {
+    width: 300px;
+    height: auto;
+}
+
+/* Brands section */
+
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22rem;
+    padding: 5rem;
+}
+
+.brand-logo {
+    width: 100px;
+    height: auto;
+}
+
+/*Feature div*/
+
+.features {
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    gap: 22rem;
+    padding: 8rem;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.feature {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    max-width: 1280px;
+}
+
+.feature-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.feature-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.feature-description {
+    font-size: 1.3rem;
+    color: #666;
+}

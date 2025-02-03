@@ -163,10 +163,8 @@
           Best selling
         </div>
         <div class="view-options">
-          <!-- Add 5 view options -->
           <div class="view-option">⋮</div>
           <div class="view-option">⋯</div>
-          <!-- Add more view options... -->
         </div>
       </div>
 
